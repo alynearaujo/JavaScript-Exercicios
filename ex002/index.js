@@ -9,3 +9,10 @@ if (idade > 18 && possuiCNH) {
 }
 
 /* operador || (OU) */
+let diaSemana = "segunda";
+
+if (diaSemana === "sábado" || diaSemana === "domingo") {
+    console.log("É fim de semana.")
+} else { 
+    console.log("É dia útil.")
+}
